@@ -1,0 +1,46 @@
+version: "3"
+services:
+  client-ecommerce:
+    build: ./client-ecommerce
+    container_name: client-ecommerce_container
+    ports:
+      - 5173:5173
+    # volumes:
+    #   - ./client-ecommerce:/app
+    #   - /app/node_modules
+
+    # stdin_open: true
+    # tty: true
+
+  user-app:
+    container_name: lms-spring-app
+    image: springbooot-app
+    restart: always
+    build: ./ecommerce
+    depends_on: [mysqldb]
+    ports:
+      - 8090:8080
+    environment:
+      MYSQL_HOST: lms-mysqldb
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_PORT: 3306
+
+  mysqldb:
+    container_name: lms-mysqldb
+    image: mysql:8.0.36
+    # volumes:
+    #   - :/var/lib/mysql
+    ports:
+      - 3309:3306
+    environment:
+      MYSQL_DATABASE: test
+      MYSQL_ROOT_PASSWORD: root
+
+#  react:
+#    build: .
+#    container_name: lms-react-container
+#    stdin_open: true
+#    ports:
+#      - 3000:3000
+

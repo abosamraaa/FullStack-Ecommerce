@@ -1,0 +1,151 @@
+.logo-header img{
+  width: 50px;
+}
+.show-items-loggedIn img{
+  width: 30px;
+  cursor: pointer;
+}
+.show-items-loggedIn{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.logo-header{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.login-header{
+  display: flex;
+  justify-content: space-around;
+  background-color: #6351ce;
+  color: #fff;
+}
+.header-buttons{
+  display: flex;
+  gap: 5px;
+}
+.login-header-nav{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.link{
+  text-decoration: none;
+  color: #fff;
+}
+.login-container{
+  margin: 5.268%;
+  padding: 3rem; /* Optional: padding for spacing inside the form */
+  border-radius: 10px; /* Optional: rounded corners */
+  background-color: white; /* Optional: background color for visibility */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 8%;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+.aside-dashboard{
+  width: 15%;
+  background: #1c2331;
+  color: #fff;
+  position: relative;
+  left: 0;
+  overflow-y: auto;
+}
+.menu-button{
+  display: flex;
+  /* align-items: center; */
+  padding: 1rem;
+  gap: 40px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.menu-button:hover{
+  background-color: #ffffff55;
+}
+.admindash-header-logo{
+  width: 10%;
+}
+.custom-card-image{
+  width: 100px;
+  height: 180px;
+}
+.menu-header-logo{
+  width: 2%;
+  cursor: pointer;
+}
+.menu-button{
+  display: flex;
+  /* align-items: center; */
+  padding: 1rem;
+  gap: 40px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.menu-button:hover{
+  background-color: #ffffff55;
+}
+.registerbtn{
+  text-align: center;
+  margin-top: 10px;
+}
+.registration-header{
+  background: #6351ce;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.registration-form{
+  background-color: #1c2331;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 2.5rem;
+}
+.errorbox{
+  text-align: center;
+  margin: 10rem;
+}
+.errorbox h1{
+  font-weight: 900;
+}
+.backbtn{
+  border-radius: 3px;
+  background-color: #6351ce;
+  padding: 1rem;
+}
+.account-box{
+  padding: 20px; /* Optional: padding for spacing inside the form */
+  border-radius: 10px; /* Optional: rounded corners */
+  background-color: white; /* Optional: background color for visibility */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow effect */
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.addproduct-form{
+  padding: 20px; /* Optional: padding for spacing inside the form */
+  border-radius: 10px; /* Optional: rounded corners */
+  background-color: white; /* Optional: background color for visibility */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 8%;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+.actual-price{
+  text-decoration: line-through;
+}
+.product-card{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.productCard{
+  border-radius: 10px; /* Optional: rounded corners */
+  background-color: white; /* Optional: background color for visibility */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+.shadow{
+  border-radius: 10px; /* Optional: rounded corners */
+  background-color: white; /* Optional: background color for visibility */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
